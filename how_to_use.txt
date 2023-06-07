@@ -1,0 +1,55 @@
+HOW TO USE - GraphQL Server and Client
+Dependencies:
+
+1.Python 3.x
+Flask
+Graphene
+Requests
+Server Setup:
+a. Install Flask and Graphene libraries:
+
+Copy code
+pip install Flask graphene
+b. Open the "graphQL.py" file and paste the provided GraphQL server code into it.
+
+c. Save the file.
+
+2.Run the Server:
+a. Open the command prompt.
+
+b. Navigate to the directory where the "graphQL.py" file is located.
+
+c. Run the following command to start the Flask server:
+
+3.Copy code
+python graphQL.py
+d. The server will start running at "http://localhost:5000". Keep the command prompt open.
+
+4.Client Setup:
+a. Open a new command prompt.
+
+b. Navigate to the directory where the "try.py" file is located.
+
+c. Open the "try.py" file and paste the provided GraphQL client code into it.
+
+d. Save the file.
+
+5.Run the Client:
+a. Make sure the Flask server is still running in the other command prompt.
+
+b. In the current command prompt, run the following command to execute the GraphQL query:
+
+arduino
+Copy code
+python try.py
+c. The client will send the GraphQL query to the Flask server and display the response on the command prompt.
+
+Interpretation:
+
+The "graphQL.py" file sets up a Flask server with a GraphQL endpoint.
+The server defines a User class and a Query class to handle GraphQL queries.
+The "try.py" file sends a GraphQL query to the server's endpoint using the Requests library.
+The server processes the query and returns the corresponding data or errors as a JSON response.
+========================================
+
+Please make sure you have Python and pip installed correctly before proceeding with the steps. Also, ensure that the "graphQL.py" and "try.py" files are in the correct directory. If you encounter any errors during installation or execution, verify the dependencies and Python installation.

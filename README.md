@@ -1,2 +1,2 @@
 # GraphQL-example
-i made an example like graphQL 
+I recently tried a GraphQL-like application and made internet requests to retrieve data. It was an interesting experience where I sent JSON-formatted requests with the query content to a specific API endpoint using the HTTP POST method. After receiving the response, I checked the status code and parsed the JSON data to extract the requested information. Overall, it provided insights into working with GraphQL-like applications and making internet requests efficiently.
